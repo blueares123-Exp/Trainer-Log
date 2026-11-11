@@ -1,5 +1,5 @@
-// Trainer Log offline cache — version 89d8de6c3f
-const CACHE = 'trainerlog-89d8de6c3f';
+// Trainer Log offline cache — version 1ca3188be6
+const CACHE = 'trainerlog-1ca3188be6';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
